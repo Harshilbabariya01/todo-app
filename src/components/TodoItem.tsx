@@ -5,8 +5,12 @@ const TodoItem: React.FC<{ text: string }> = (props) => {
     const [style, setStyle] = useState('none');
 
     const changeHandler = () => {
-        
-        setStyle('text-decoration-line-through');
+        if (style == 'none') {
+            setStyle('text-decoration-line-through');
+        }
+        else {
+            setStyle('none');
+        }
     };
 
     return (
