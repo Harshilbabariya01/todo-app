@@ -15,11 +15,7 @@ function App() {
       return prevTask.concat(newTask);
     });
   };
-
-  const deleteTaskHandler = () => {
-
-  };
-
+  
   return (
     <div className="my-5 mx-5 border">
       <div className="m-5">
