@@ -16,6 +16,9 @@ function App() {
     });
   };
 
+  const deleteTaskHandler = () => {
+
+  };
 
   return (
     <div className="my-5 mx-5 border">
